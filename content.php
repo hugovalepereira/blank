@@ -5,13 +5,13 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
              <div class="carousel-item active">
-               <img src="assets/placeholder.jpg" alt="Los Angeles" width="1100" height="500">
+               <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/placeholder.jpg" alt="Los Angeles" width="1100" height="500">
                  </div>
           <div class="carousel-item">
-                <img src="assets/placeholder.jpg" alt="Chicago" width="1100" height="500">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/placeholder.jpg" alt="Chicago" width="1100" height="500">
             </div>
             <div class="carousel-item">
-                <img src="assets/placeholder.jpg" alt="New York" width="1100" height="500">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/placeholder.jpg" alt="New York" width="1100" height="500">
             </div>
         </div>
 
