@@ -1,34 +1,38 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package blank
- */
+</div> <!-- fechar uma div container -->
 
-?>
+<!--FOOTER-->
+<footer class="bg__main-color">
+	<div class="container">
+		<div class="row footer-content">
+			<div class="footer__description container-fluid col-sm-12 col-md-12 col-lg-3">
+				<h6>Stereognosis</h6>
+				<p class="secondary_text">Stereognosis is a magazine that wants to change your perspective of the knowledge. Is made by three students of the Design and Multimedia Bachelor Degree of the University of Coimbra</p>
+			</div>
+			<div class="footer__info col-sm-6 col-md-6 col-lg-3">
+				<p class="footer__subtitle">Info -</p>
+				<ul>
+					<a href="#purpose" class="footer__link"><li>Purpose</li></a>
+					<a href="index_shop.html" class="footer__link"><li>Shop</li></a>
+					<li>Support Us</li>
+					<li>Contact Us</li>
+				</ul>
+			</div>
 
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'blank' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'blank' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'blank' ), 'blank', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
+			<div class="footer__social col-sm-6 col-md-6 col-lg-3">
+				<p class="footer__subtitle footer-follow">Follow -</p>
+				<i class="fa fa-instagram icons" aria-hidden="true"></i>
+				<i class="fa fa-twitter icons" aria-hidden="true"></i>
+				<i class="fa fa-facebook icons" aria-hidden="true"></i>
+			</div>
+			<div class="footer__translation col-sm-6 col-md-6 col-lg-3">
+				<span>English</span>
+				<span>/</span>
+				<span>Portuguese</span>
+			</div>
+		</div>
+	</div>
+</footer>
 <?php wp_footer(); ?>
-
 </body>
+
 </html>
